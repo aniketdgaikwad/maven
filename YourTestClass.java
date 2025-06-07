@@ -1,12 +1,11 @@
 package com.example;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
-public class YourTestClass {
-
+public class HelloWorldTest {
     @Test
-    public void testAddition() {
-        assertEquals(2 + 2, 4);
+    public void testHello() {
+        assertEquals("Hello", "Hello");
     }
 }
