@@ -1,9 +1,12 @@
+package com.example;
+
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class SampleTest {
+public class YourTestClass {
+
     @Test
     public void testAddition() {
-        assertEquals(4, 2 + 2);
+        assertEquals(2 + 2, 4);
     }
 }
